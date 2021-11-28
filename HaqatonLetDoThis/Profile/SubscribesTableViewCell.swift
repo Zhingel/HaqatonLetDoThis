@@ -7,13 +7,13 @@
 
 import UIKit
 
-class TickerTableViewCell: UITableViewCell {
+class SubscribesTableViewCell: UITableViewCell {
     
     let tickerImage = UIImageView()
     let tickerName = UILabel()
     let tickerCode = UILabel()
     
-    static let id = "tickerCell"
+    static let id = "subsCell"
 
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)

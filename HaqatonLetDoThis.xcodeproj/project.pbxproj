@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE1E5778275385BE00C7BFAA /* AuthorisationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1E576F275385BE00C7BFAA /* AuthorisationViewController.swift */; };
+		EE1E5779275385BE00C7BFAA /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE1E5770275385BE00C7BFAA /* ProfileViewController.xib */; };
+		EE1E577A275385BE00C7BFAA /* SubscribesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1E5771275385BE00C7BFAA /* SubscribesTableViewCell.swift */; };
+		EE1E577B275385BE00C7BFAA /* TickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1E5772275385BE00C7BFAA /* TickerTableViewCell.swift */; };
+		EE1E577C275385BE00C7BFAA /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1E5773275385BE00C7BFAA /* ProfileViewController.swift */; };
+		EE1E577D275385BE00C7BFAA /* PostsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1E5774275385BE00C7BFAA /* PostsTableViewCell.swift */; };
+		EE1E577E275385BE00C7BFAA /* FetchProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1E5775275385BE00C7BFAA /* FetchProfile.swift */; };
+		EE1E577F275385BE00C7BFAA /* ProfileTickersArray.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1E5776275385BE00C7BFAA /* ProfileTickersArray.swift.swift */; };
+		EE1E5780275385BE00C7BFAA /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1E5777275385BE00C7BFAA /* ProfileModel.swift */; };
+		EE1E5784275385FD00C7BFAA /* HackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1E5782275385FD00C7BFAA /* HackButton.swift */; };
+		EE1E5785275385FD00C7BFAA /* HackTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1E5783275385FD00C7BFAA /* HackTextField.swift */; };
 		EEF2BE3327537F730008D3EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF2BE3227537F730008D3EF /* AppDelegate.swift */; };
 		EEF2BE3527537F730008D3EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF2BE3427537F730008D3EF /* SceneDelegate.swift */; };
 		EEF2BE3727537F730008D3EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF2BE3627537F730008D3EF /* ViewController.swift */; };
@@ -15,12 +26,6 @@
 		EEF2BE3F27537F750008D3EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEF2BE3D27537F750008D3EF /* LaunchScreen.storyboard */; };
 		EEF2BE4727537FB70008D3EF /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF2BE4627537FB70008D3EF /* MainTabBarController.swift */; };
 		EEF2BE4927537FC90008D3EF /* FetchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF2BE4827537FC90008D3EF /* FetchData.swift */; };
-		EEF2BE512753803A0008D3EF /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEF2BE4B2753803A0008D3EF /* ProfileViewController.xib */; };
-		EEF2BE522753803A0008D3EF /* TickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF2BE4C2753803A0008D3EF /* TickerTableViewCell.swift */; };
-		EEF2BE532753803A0008D3EF /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF2BE4D2753803A0008D3EF /* ProfileViewController.swift */; };
-		EEF2BE542753803A0008D3EF /* FetchProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF2BE4E2753803A0008D3EF /* FetchProfile.swift */; };
-		EEF2BE552753803A0008D3EF /* ProfileTickersArray.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF2BE4F2753803A0008D3EF /* ProfileTickersArray.swift.swift */; };
-		EEF2BE562753803A0008D3EF /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF2BE502753803A0008D3EF /* ProfileModel.swift */; };
 		EEF2BE59275380470008D3EF /* Ticker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF2BE58275380470008D3EF /* Ticker.swift */; };
 		EEF2BE6D275380610008D3EF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF2BE5B275380610008D3EF /* Extensions.swift */; };
 		EEF2BE6E275380610008D3EF /* CatalogViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF2BE5D275380610008D3EF /* CatalogViewCell.swift */; };
@@ -40,6 +45,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE1E576F275385BE00C7BFAA /* AuthorisationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorisationViewController.swift; sourceTree = "<group>"; };
+		EE1E5770275385BE00C7BFAA /* ProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		EE1E5771275385BE00C7BFAA /* SubscribesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscribesTableViewCell.swift; sourceTree = "<group>"; };
+		EE1E5772275385BE00C7BFAA /* TickerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TickerTableViewCell.swift; sourceTree = "<group>"; };
+		EE1E5773275385BE00C7BFAA /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		EE1E5774275385BE00C7BFAA /* PostsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsTableViewCell.swift; sourceTree = "<group>"; };
+		EE1E5775275385BE00C7BFAA /* FetchProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchProfile.swift; sourceTree = "<group>"; };
+		EE1E5776275385BE00C7BFAA /* ProfileTickersArray.swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTickersArray.swift.swift; sourceTree = "<group>"; };
+		EE1E5777275385BE00C7BFAA /* ProfileModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
+		EE1E5782275385FD00C7BFAA /* HackButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HackButton.swift; sourceTree = "<group>"; };
+		EE1E5783275385FD00C7BFAA /* HackTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HackTextField.swift; sourceTree = "<group>"; };
 		EEF2BE2F27537F730008D3EF /* HaqatonLetDoThis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaqatonLetDoThis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEF2BE3227537F730008D3EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEF2BE3427537F730008D3EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,12 +66,6 @@
 		EEF2BE4027537F750008D3EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EEF2BE4627537FB70008D3EF /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		EEF2BE4827537FC90008D3EF /* FetchData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchData.swift; sourceTree = "<group>"; };
-		EEF2BE4B2753803A0008D3EF /* ProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
-		EEF2BE4C2753803A0008D3EF /* TickerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TickerTableViewCell.swift; sourceTree = "<group>"; };
-		EEF2BE4D2753803A0008D3EF /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		EEF2BE4E2753803A0008D3EF /* FetchProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchProfile.swift; sourceTree = "<group>"; };
-		EEF2BE4F2753803A0008D3EF /* ProfileTickersArray.swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTickersArray.swift.swift; sourceTree = "<group>"; };
-		EEF2BE502753803A0008D3EF /* ProfileModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
 		EEF2BE58275380470008D3EF /* Ticker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ticker.swift; sourceTree = "<group>"; };
 		EEF2BE5B275380610008D3EF /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		EEF2BE5D275380610008D3EF /* CatalogViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatalogViewCell.swift; sourceTree = "<group>"; };
@@ -85,6 +95,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE1E576E275385BE00C7BFAA /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				EE1E576F275385BE00C7BFAA /* AuthorisationViewController.swift */,
+				EE1E5770275385BE00C7BFAA /* ProfileViewController.xib */,
+				EE1E5771275385BE00C7BFAA /* SubscribesTableViewCell.swift */,
+				EE1E5772275385BE00C7BFAA /* TickerTableViewCell.swift */,
+				EE1E5773275385BE00C7BFAA /* ProfileViewController.swift */,
+				EE1E5774275385BE00C7BFAA /* PostsTableViewCell.swift */,
+				EE1E5775275385BE00C7BFAA /* FetchProfile.swift */,
+				EE1E5776275385BE00C7BFAA /* ProfileTickersArray.swift.swift */,
+				EE1E5777275385BE00C7BFAA /* ProfileModel.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		EE1E5781275385FD00C7BFAA /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				EE1E5782275385FD00C7BFAA /* HackButton.swift */,
+				EE1E5783275385FD00C7BFAA /* HackTextField.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
 		EEF2BE2627537F730008D3EF = {
 			isa = PBXGroup;
 			children = (
@@ -108,12 +143,13 @@
 				EEF2BE3427537F730008D3EF /* SceneDelegate.swift */,
 				EEF2BE4627537FB70008D3EF /* MainTabBarController.swift */,
 				EEF2BE4827537FC90008D3EF /* FetchData.swift */,
+				EE1E5781275385FD00C7BFAA /* CustomViews */,
+				EE1E576E275385BE00C7BFAA /* Profile */,
 				EEF2BE5C275380610008D3EF /* Catalog */,
 				EEF2BE6B275380610008D3EF /* ChatView */,
 				EEF2BE5A275380610008D3EF /* Extensions */,
 				EEF2BE61275380610008D3EF /* TickerProfile */,
 				EEF2BE57275380470008D3EF /* Model */,
-				EEF2BE4A2753803A0008D3EF /* Profile */,
 				EEF2BE3627537F730008D3EF /* ViewController.swift */,
 				EEF2BE3827537F730008D3EF /* Main.storyboard */,
 				EEF2BE3B27537F750008D3EF /* Assets.xcassets */,
@@ -121,19 +157,6 @@
 				EEF2BE4027537F750008D3EF /* Info.plist */,
 			);
 			path = HaqatonLetDoThis;
-			sourceTree = "<group>";
-		};
-		EEF2BE4A2753803A0008D3EF /* Profile */ = {
-			isa = PBXGroup;
-			children = (
-				EEF2BE4B2753803A0008D3EF /* ProfileViewController.xib */,
-				EEF2BE4C2753803A0008D3EF /* TickerTableViewCell.swift */,
-				EEF2BE4D2753803A0008D3EF /* ProfileViewController.swift */,
-				EEF2BE4E2753803A0008D3EF /* FetchProfile.swift */,
-				EEF2BE4F2753803A0008D3EF /* ProfileTickersArray.swift.swift */,
-				EEF2BE502753803A0008D3EF /* ProfileModel.swift */,
-			);
-			path = Profile;
 			sourceTree = "<group>";
 		};
 		EEF2BE57275380470008D3EF /* Model */ = {
@@ -247,7 +270,7 @@
 			files = (
 				EEF2BE3F27537F750008D3EF /* LaunchScreen.storyboard in Resources */,
 				EEF2BE3C27537F750008D3EF /* Assets.xcassets in Resources */,
-				EEF2BE512753803A0008D3EF /* ProfileViewController.xib in Resources */,
+				EE1E5779275385BE00C7BFAA /* ProfileViewController.xib in Resources */,
 				EEF2BE3A27537F730008D3EF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,29 +283,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEF2BE71275380610008D3EF /* CatalogViewController.swift in Sources */,
+				EE1E577B275385BE00C7BFAA /* TickerTableViewCell.swift in Sources */,
 				EEF2BE7A275380610008D3EF /* ContentView.swift in Sources */,
-				EEF2BE542753803A0008D3EF /* FetchProfile.swift in Sources */,
 				EEF2BE72275380610008D3EF /* OffSetTabView.swift in Sources */,
+				EE1E5778275385BE00C7BFAA /* AuthorisationViewController.swift in Sources */,
 				EEF2BE3727537F730008D3EF /* ViewController.swift in Sources */,
+				EE1E5784275385FD00C7BFAA /* HackButton.swift in Sources */,
 				EEF2BE78275380610008D3EF /* StockViewGraphic.swift in Sources */,
 				EEF2BE7B275380610008D3EF /* ChatView.swift in Sources */,
-				EEF2BE522753803A0008D3EF /* TickerTableViewCell.swift in Sources */,
 				EEF2BE6F275380610008D3EF /* TickerHeaderView.swift in Sources */,
+				EE1E5780275385BE00C7BFAA /* ProfileModel.swift in Sources */,
+				EE1E577E275385BE00C7BFAA /* FetchProfile.swift in Sources */,
 				EEF2BE3327537F730008D3EF /* AppDelegate.swift in Sources */,
-				EEF2BE552753803A0008D3EF /* ProfileTickersArray.swift.swift in Sources */,
 				EEF2BE76275380610008D3EF /* TopbarView.swift in Sources */,
-				EEF2BE562753803A0008D3EF /* ProfileModel.swift in Sources */,
 				EEF2BE70275380610008D3EF /* TickerProfileController.swift in Sources */,
 				EEF2BE59275380470008D3EF /* Ticker.swift in Sources */,
+				EE1E577A275385BE00C7BFAA /* SubscribesTableViewCell.swift in Sources */,
 				EEF2BE6D275380610008D3EF /* Extensions.swift in Sources */,
+				EE1E5785275385FD00C7BFAA /* HackTextField.swift in Sources */,
 				EEF2BE77275380610008D3EF /* SmilesView.swift in Sources */,
 				EEF2BE4927537FC90008D3EF /* FetchData.swift in Sources */,
-				EEF2BE532753803A0008D3EF /* ProfileViewController.swift in Sources */,
+				EE1E577D275385BE00C7BFAA /* PostsTableViewCell.swift in Sources */,
 				EEF2BE73275380610008D3EF /* DrawView.swift in Sources */,
 				EEF2BE79275380610008D3EF /* News.swift in Sources */,
 				EEF2BE74275380610008D3EF /* AddTextView.swift in Sources */,
+				EE1E577F275385BE00C7BFAA /* ProfileTickersArray.swift.swift in Sources */,
 				EEF2BE75275380610008D3EF /* PageHelper.swift in Sources */,
 				EEF2BE6E275380610008D3EF /* CatalogViewCell.swift in Sources */,
+				EE1E577C275385BE00C7BFAA /* ProfileViewController.swift in Sources */,
 				EEF2BE4727537FB70008D3EF /* MainTabBarController.swift in Sources */,
 				EEF2BE3527537F730008D3EF /* SceneDelegate.swift in Sources */,
 			);

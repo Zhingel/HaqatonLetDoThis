@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
-        <capability name="Named colors" minToolsVersion="9.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -37,17 +36,18 @@
                             <state key="normal" title="Button"/>
                             <buttonConfiguration key="configuration" style="filled" title="Рейтинг 0">
                                 <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
-                                <color key="baseBackgroundColor" name="ItemsColor"/>
+                                <color key="baseForegroundColor" name="ItemsColor"/>
+                                <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </buttonConfiguration>
                         </button>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Константин Павлович" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CwC-hw-ifX">
                             <rect key="frame" x="130" y="27" width="138.5" height="57.5"/>
                             <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
-                            <color key="textColor" name="ItemsColor"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <nil key="highlightedColor"/>
                         </label>
                     </subviews>
-                    <color key="backgroundColor" name="SecondaryBackColor"/>
+                    <color key="backgroundColor" red="0.32999688389999998" green="0.71917122600000005" blue="0.89045989510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstItem="rEZ-mY-N16" firstAttribute="leading" secondItem="vab-GO-UcF" secondAttribute="leading" constant="10" id="1vM-J4-QKu"/>
                         <constraint firstItem="CwC-hw-ifX" firstAttribute="leading" secondItem="gNc-MZ-tN3" secondAttribute="trailing" constant="30" id="450-aZ-hCy"/>
@@ -60,19 +60,34 @@
                     </constraints>
                 </view>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="ticketTableView" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="CAA-Kb-xuE">
-                    <rect key="frame" x="0.0" y="223" width="414" height="639"/>
+                    <rect key="frame" x="0.0" y="286" width="414" height="576"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                 </tableView>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="WTg-2B-Pgd">
+                    <rect key="frame" x="71" y="235" width="272" height="32"/>
+                    <segments>
+                        <segment title="Избранное"/>
+                        <segment title="Посты"/>
+                        <segment title="Подписки"/>
+                    </segments>
+                    <connections>
+                        <action selector="segmentDidChanged:" destination="-1" eventType="valueChanged" id="p7j-l3-Lvs"/>
+                    </connections>
+                </segmentedControl>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
                 <constraint firstItem="vab-GO-UcF" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="2HK-El-RTZ"/>
-                <constraint firstItem="CAA-Kb-xuE" firstAttribute="top" secondItem="vab-GO-UcF" secondAttribute="bottom" constant="8" symbolic="YES" id="3Sf-XI-bf4"/>
                 <constraint firstItem="vab-GO-UcF" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="849-ej-TZ8"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="CAA-Kb-xuE" secondAttribute="trailing" id="Fat-LL-cTz"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="vab-GO-UcF" secondAttribute="trailing" id="IHG-td-cJm"/>
+                <constraint firstItem="WTg-2B-Pgd" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="KFc-CG-A3L"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="CAA-Kb-xuE" secondAttribute="bottom" id="MM0-Z2-HiM"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="WTg-2B-Pgd" secondAttribute="trailing" constant="50" id="SPT-zj-Cxo"/>
+                <constraint firstItem="WTg-2B-Pgd" firstAttribute="top" secondItem="vab-GO-UcF" secondAttribute="bottom" constant="20" id="TfR-Ed-tS6"/>
+                <constraint firstItem="CAA-Kb-xuE" firstAttribute="top" secondItem="WTg-2B-Pgd" secondAttribute="bottom" constant="20" id="Z7d-4s-EWf"/>
+                <constraint firstItem="WTg-2B-Pgd" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="50" id="aYq-YT-B9l"/>
                 <constraint firstItem="CAA-Kb-xuE" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="qHz-SB-3Hg"/>
             </constraints>
             <point key="canvasLocation" x="131.8840579710145" y="61.607142857142854"/>
@@ -82,9 +97,6 @@
         <image name="Avatar" width="80" height="80"/>
         <namedColor name="ItemsColor">
             <color red="0.32999688389999998" green="0.71917122600000005" blue="0.89045989510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="SecondaryBackColor">
-            <color red="0.95249527690000002" green="0.96854406599999998" blue="0.97697216269999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
